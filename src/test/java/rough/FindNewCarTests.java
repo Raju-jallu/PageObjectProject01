@@ -31,8 +31,8 @@ public class FindNewCarTests {
 		//home.gotoPopularCars();
 		NewCarsPage car= home.findNewCars();
 		
-		//car.gotoAudiCars();
-		car.gotoBMWCars();
+		car.gotoAudiCars();
+		//car.gotoBMWCars();
 		
         //TataCarsPage tataCars=car.gotoTataCars();
 		//tataCars.getTitle();
